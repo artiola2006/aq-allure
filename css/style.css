@@ -284,6 +284,17 @@ ul {
     background-color: #fbced5;
 }
 
+.aq-card{
+    background-color:#FFE3EB;
+}
+
+.aq-accessoriesbody{
+   background-color: color-mix(in srgb, pink 60%, white 5%)
+}
+
+.aq-contactbackground{
+    background:linear-gradient(rgb(255, 172, 226), rgb(255, 251, 251))
+}
 
 @media only screen and (max-width: 575px) {
     body {
