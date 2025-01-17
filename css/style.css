@@ -292,9 +292,10 @@ ul {
    background-color: color-mix(in srgb, pink 60%, white 5%)
 }
 
-.aq-contactbackground{
-    background:linear-gradient(rgb(255, 172, 226), rgb(255, 251, 251))
+.aq-background{
+    background:linear-gradient(rgb(253, 204, 236), rgb(255, 251, 251))
 }
+
 
 @media only screen and (max-width: 575px) {
     body {
