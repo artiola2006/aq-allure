@@ -292,7 +292,15 @@ ul {
 }
 
 .aq-background{
-    background:linear-gradient(rgb(253, 204, 236), rgb(255, 251, 251))
+    background:linear-gradient(rgb(253, 201, 235), rgb(255, 251, 251))
+}
+
+.aq-indexbackground{
+    background: linear-gradient(rgb(255, 251, 251), rgb(253, 201, 235));
+}
+
+.aq-aboutbackground{
+    background: linear-gradient(to bottom, #ffebf3,#ffaade);
 }
 
 
