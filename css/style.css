@@ -375,6 +375,36 @@ ul {
     }
 }
 
+/* Default styling for larger devices */
+video.card-img-top {
+    width: 100%; /* Ensure video fits its container */
+    height: auto;
+    max-height: 400px; /* Prevent excessive height */
+    object-fit: cover;
+}
+
+/* Small devices (phones, up to 576px) */
+@media (max-width: 576px) {
+    video.card-img-top {
+        max-height: 250px; /* Limit height for smaller screens */
+        width: 100%; /* Ensure full width */
+    }
+}
+
+/* Medium devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+    video.card-img-top {
+        max-height: 300px;
+    }
+}
+
+/* Large devices (up to 992px) */
+@media (max-width: 992px) {
+    video.card-img-top {
+        max-height: 350px;
+    }
+}
+
 
 
 
